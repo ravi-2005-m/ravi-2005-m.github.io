@@ -255,60 +255,73 @@
           <div class="project-date"><i class="fas fa-calendar"></i> Jan 2026</div>
         </div>
 
-        <!-- Project 2 -->
-        <div class="project-card">
-          <div class="project-top">
-            <div class="project-icon"><i class="fas fa-robot"></i></div>
-            <div class="project-links">
-              <a href="https://github.com/ravi-2005-m/Comic_Crafter_AI_Intel_Intern" target="_blank" title="GitHub">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
+        
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-robot"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/ravi-2005-m/Comic_Crafter_AI_Intel_Intern" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
           </div>
-          <h3>Comic Crafter AI</h3>
-          <p class="project-sub">Intel Internship Project</p>
-          <p class="project-desc">
-            An AI-powered comic creation platform developed as part of an Intel internship.
-            Leverages artificial intelligence to generate comic panels and narratives from user inputs,
-            showcasing integration of AI/ML capabilities in a practical creative application.
-          </p>
-          <div class="project-tech">
-            <span>AI/ML</span>
-            <span>Intel OpenVINO</span>
-            <span>Python</span>
-          </div>
-          <div class="project-date"><i class="fas fa-calendar"></i> Intel Intern</div>
         </div>
+        <h3>Comic Crafter AI</h3>
+        <p class="project-sub">Intel Internship Project</p>
+        <p class="project-desc">
+          An <strong>AI-powered comic strip generator</strong> built during an Intel internship that turns a single user
+          prompt into a structured <strong>2x2 comic panel</strong>. Combines text generation and diffusion-based image
+          synthesis through a layered pipeline that handles story, scene, and dialogue end-to-end.
+        </p>
+        <ul class="project-highlights">
+          <li>Designed a <strong>three-layer architecture</strong> (UI → Core Processing → AI Models) with clear separation of concerns</li>
+          <li>Integrated <strong>DistilGPT-2</strong> for narrative generation and <strong>Stable Diffusion</strong> for panel image synthesis</li>
+          <li>Implemented a <strong>fallback cascade</strong> (Mistral-7B → T5 → DistilGPT-2) for resilient text generation under model failure</li>
+          <li>Optimized inference with <strong>xFormers attention</strong> and <strong>4-bit quantization</strong> for Colab GPU constraints</li>
+        </ul>
+        <div class="project-tech">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>Transformers</span>
+          <span>Diffusers</span>
+          <span>Stable Diffusion</span>
+          <span>DistilGPT-2</span>
+        </div>
+        <div class="project-date"><i class="fas fa-calendar"></i> Intel Intern</div>
+      </div>
 
-        <!-- Project 3 -->
-        <div class="project-card">
-          <div class="project-top">
-            <div class="project-icon"><i class="fas fa-university"></i></div>
-            <div class="project-links">
-              <a href="https://github.com/ravi-2005-m/Bank_Management_System" target="_blank" title="GitHub">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-university"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/ravi-2005-m/Bank_Management_System" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
           </div>
-          <h3>Bank Management System</h3>
-          <p class="project-sub">Java Backend Application</p>
-          <p class="project-desc">
-            A fully functional banking backend built using core Java and OOP principles,
-            supporting deposit, withdrawal, and fund transfer operations with strong
-            data integrity and custom exception handling.
-          </p>
-          <ul class="project-highlights">
-            <li>Deposit, withdrawal &amp; fund transfer operations</li>
-            <li>Data integrity checks across all transactions</li>
-            <li>Custom exception handling for edge-case scenarios</li>
-          </ul>
-          <div class="project-tech">
-            <span>Java</span>
-            <span>OOP</span>
-            <span>Exception Handling</span>
-          </div>
-          <div class="project-date"><i class="fas fa-calendar"></i> Jun 2025</div>
         </div>
+        <h3>Bank Management System</h3>
+        <p class="project-sub">Java Console Application</p>
+        <p class="project-desc">
+          A console-based banking application built in <strong>core Java</strong> showcasing object-oriented design,
+          <strong>role-based access control</strong>, and persistent file storage. Supports separate Admin and User
+          workflows with PIN-protected accounts, transaction tracking, and compound interest calculation.
+        </p>
+        <ul class="project-highlights">
+          <li>Built a <strong>role-based architecture</strong> with separate Admin and User workflows for secure access control</li>
+          <li>Implemented <strong>PIN-protected authentication</strong> with deposit, withdrawal, balance check, and transaction history</li>
+          <li>Engineered <strong>persistent file storage</strong> using Java Serialization (<code>ObjectOutputStream</code>) for accounts &amp; admin data</li>
+          <li>Developed an Admin panel to view all accounts, delete accounts, and create new admins (capped at 3 users)</li>
+        </ul>
+        <div class="project-tech">
+          <span>Java</span>
+          <span>OOP</span>
+          <span>Serialization</span>
+          <span>File I/O</span>
+          <span>IntelliJ IDEA</span>
+        </div>
+        <div class="project-date"><i class="fas fa-calendar"></i> Jun 2025</div>
+      </div>
 
       </div>
     </div>
